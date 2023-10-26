@@ -204,7 +204,7 @@ body {
 }
 
 .link-basic:hover,
-.link-basic:focus,{
+.link-basic:focus{
   color: var(--clr-primary-400-trans);
   text-decoration: none;
 }

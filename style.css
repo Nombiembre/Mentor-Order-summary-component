@@ -204,9 +204,7 @@ body {
 }
 
 .link-basic:hover,
-.link-basic:focus,
-.link:hover,
-.link:focus{
+.link-basic:focus,{
   color: var(--clr-primary-400-trans);
   text-decoration: none;
 }
@@ -217,4 +215,9 @@ body {
   color: var(--clr-accent-400);
   margin-top: var(--gap);
   font-size: var(--fs-300);
+}
+
+.link:hover,
+.link:focus{
+  color: var(--clr-accent-700);  
 }

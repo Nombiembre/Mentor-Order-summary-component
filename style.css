@@ -1,5 +1,5 @@
 
-/* Box sizing rules */
+/* custom properties */
 :root {
   --clr-primary-100: hsl(225, 100%, 94%);
   --clr-primary-400: hsl(245, 75%, 52%);
@@ -41,6 +41,7 @@
 
 }
 
+/*Utilities classes*/
 .title-primary {
   color: var(--clr-accent-700);
   font-size: var(--fs-900);
@@ -54,7 +55,7 @@
 }
 
 
-/* Reset */
+/* Reset https://piccalil.li/blog/a-modern-css-reset*/
 
 *,
 *::before,
